@@ -14,7 +14,7 @@ movies = pickle.load(open("movies_list.pkl", 'rb'))
 similarity = pickle.load(open("similarity.pkl", 'rb'))
 movies_list=movies['title'].values
 
-st.header("Movie Recommender System")
+st.header("Movie Recommenddation System")
 
 import streamlit.components.v1 as components
 
